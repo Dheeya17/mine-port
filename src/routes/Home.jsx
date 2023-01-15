@@ -35,7 +35,7 @@ const Home = () => {
       </div>
       <div
         id="content"
-        className="text-white px-10 lg:px-Mid py-10 text-left m-4 content-center h-64 mt-16 lg:mt-20"
+        className="text-white px-7 lg:px-Mid py-10 text-left m-4 content-center h-64 mt-16 lg:mt-20"
       >
         <h2 className="sub text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
           Summary
@@ -51,7 +51,7 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="px-10 lg:px-Mid text-white text-left mt-20 lg:mt-10 mx-4 content-center h-56">
+      <div className="px-7 lg:px-Mid text-white text-left mt-20 lg:mt-10 mx-4 content-center h-56">
         <h2 className="text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
           Skills
         </h2>
@@ -65,7 +65,7 @@ const Home = () => {
           })}
         </div>
       </div>
-      <div className="px-10 lg:px-Mid text-white text-left m-4 content-center h-64">
+      <div className="px-7 lg:px-Mid text-white text-left m-4 content-center h-64">
         <h2 className="text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
           Software Proficiency
         </h2>
