@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <div className="flex text-white p-4 mb-24 pt-10 text-center h-100 md:h-100 lg:h-screen align-middle relative md:mb-72 lg:mb-36">
-        <div id="title" className="mx-auto mt-10 lg:mt-36 relative">
+        <div id="title" className="mx-auto mt-7 lg:mt-36 relative">
           <div className="relative z-20">
             <h1 className="font-bold text-2xl md:text-5xl lg:text-7xl">
               Ghozi Dhiya Ulhaq
