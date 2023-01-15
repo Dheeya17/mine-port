@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    min-height: 100vh;
+    /* background: linear-gradient(rgb(0, 0, 0),rgb(10, 0, 39)); */
+    background-image: url('./assets/grad-sky.png');
+    background-repeat: no-repeat;
+    background-color: rgb(10, 0, 39);
+}
+.miku{
+    background-image: url(https://pbs.twimg.com/media/FKwGXVpUYAgZHE2?format=jpg&name=large);
+    background-color: rgba(4, 50, 168, 0.589);
+    background-size:100%;
+    background-attachment: fixed;
+}
+
+.parallax{
+    position: relative;
+}
+.parallax > img{
+    position: absolute;
+    object-fit: cover;
+}

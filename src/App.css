@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  font-family: sans-serif;
+  /* background-image: url('https://pbs.twimg.com/media/FL4TZLuagAY-lGZ?format=jpg&name=4096x4096'); */
+}
+.nav > a{
+  color: white;
+  font-weight: 500;
+  width: 8rem;
+}
+
+.nav > a:focus{
+  font-weight: bold;
+  color: aqua;
+  text-shadow: 20px;
+  text-shadow: cyan;
+  animation: neon 5s infinite;
+}
+:root {
+  --shadow-color: #01b6fd;
+  --shadow-color-light: rgb(0, 238, 255);
+}
+@keyframes neon {
+  0% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+  50% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+    0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+  }
+  100% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0d0d; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 195, 255); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 0, 179); 
+}
