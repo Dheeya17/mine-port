@@ -58,7 +58,7 @@ const Home = () => {
         <div className="flex flex-row flex-wrap">
           {skills.map((e) => {
             return (
-              <div className="transition ease-in-out w-36 lg:w-40 border-2 my-2 text-center mx-2 hover:scale-110 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-lg hover:shadow-cyan-400 hover:backdrop-blur-sm duration-300">
+              <div className="transition ease-in-out w-32 lg:w-40 border-2 my-2 text-center mr-2 hover:scale-110 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-lg hover:shadow-cyan-400 hover:backdrop-blur-sm duration-300">
                 {e}
               </div>
             );
