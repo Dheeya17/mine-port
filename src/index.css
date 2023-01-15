@@ -27,3 +27,6 @@ body{
     position: absolute;
     object-fit: cover;
 }
+.glow{
+    text-shadow: 0 0 5px #00ccff;
+}
