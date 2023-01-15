@@ -15,13 +15,13 @@ const software = [
 const Home = () => {
   return (
     <>
-      <div className="flex text-white p-4 text-center h-100 lg:h-screen align-middle relative">
+      <div className="flex text-white p-4 mb-24 pt-10 text-center h-100 md:h-100 lg:h-screen align-middle relative md:mb-72 lg:mb-36">
         <div id="title" className="mx-auto mt-10 lg:mt-36 relative">
           <div className="relative z-20">
-            <h1 className="font-bold text-2xl lg:text-7xl">
+            <h1 className="font-bold text-2xl md:text-5xl lg:text-7xl">
               Ghozi Dhiya Ulhaq
             </h1>
-            <h2 className="text-md lg:text-2xl mb-2 lg:mb-4">
+            <h2 className="text-md md:text-lg lg:text-2xl mb-2 lg:mb-4">
               Frontend Developer and Key Art Artist
             </h2>
           </div>
@@ -35,7 +35,7 @@ const Home = () => {
       </div>
       <div
         id="content"
-        className="text-white px-7 lg:px-Mid py-10 text-left m-4 content-center h-64 mt-16 lg:mt-20"
+        className="text-white px-7 lg:px-Mid pt-10 text-left m-4 content-center mt-20 lg:mt-20"
       >
         <h2 className="sub text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
           Summary
@@ -51,7 +51,7 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="px-7 lg:px-Mid text-white text-left mt-20 lg:mt-10 mx-4 content-center h-56">
+      <div className="px-7 lg:px-Mid text-white text-left m-4 mt-20 lg:mt-10 content-center">
         <h2 className="text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
           Skills
         </h2>
@@ -65,7 +65,7 @@ const Home = () => {
           })}
         </div>
       </div>
-      <div className="px-7 lg:px-Mid text-white text-left m-4 content-center h-64">
+      <div className="px-7 lg:px-Mid text-white text-left m-4 mt-20 lg:mt-10 content-center h-64">
         <h2 className="text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
           Software Proficiency
         </h2>
