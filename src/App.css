@@ -40,9 +40,12 @@
 ::-webkit-scrollbar {
   width: 5px;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
 
 ::-webkit-scrollbar-track {
-  background: #0e0d0d; 
+  background: rgb(10, 0, 39);
 }
  
 ::-webkit-scrollbar-thumb {
@@ -51,4 +54,15 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(255, 0, 179); 
+}
+#dot{
+  bottom: 13%;
+}
+.mask {
+  -webkit-mask-image: url(/public/Glitch.png);
+  mask-image: url(/public/Glitch.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  /* -webkit-mask-size: auto; */
+  mask-size:contain ;
 }

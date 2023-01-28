@@ -4,13 +4,7 @@ import { Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Home from "./routes/Home";
 import Port from "./routes/Port";
-import scrapfront from "./assets/scrapper-front.png";
-import scrapback from "./assets/scrapper-back.png";
-import starry from "./assets/starry-sky.png";
-import refl from "./assets/scrapper-refl.png";
-import light from "./assets/light.png";
-import light2 from "./assets/light2.png";
-import lights from "./assets/lights.png";
+
 import "./App.css";
 function App() {
   return (
@@ -23,11 +17,11 @@ function App() {
           {/* <div className="nav flex"></div> */}
         </div>
         <div className="parallax">
-          <img className="z-30" src={scrapfront} alt="" />
-          <img className="z-10 lg:z-20" src={scrapback} alt="" />
-          <img className="z-10" src={starry} alt="" />
-          <img className="z-10" src={refl} alt="" />
-          <img className="z-10" src={lights} alt="" />
+          <img className="z-30" src="/scrapper-front.png" alt="" />
+          <img className="z-10 lg:z-20" src="/scrapper-back.png" alt="" />
+          <img className="z-10" src="/starry-sky.png" alt="" />
+          <img className="z-10" src="/scrapper-refl.png" alt="" />
+          <img className="z-10" src="/lights.png" alt="" />
           {/* <img className="z-10" src={light} alt="" />
           <img className="z-10 right-4" src={light2} alt="" /> */}
         </div>

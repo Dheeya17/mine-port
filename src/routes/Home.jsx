@@ -1,16 +1,8 @@
 const skills = ["Frontend", "3D Modelling", "Key Art"];
-import vscode from "../assets/vscode.svg";
-import blender from "../assets/blender3d.svg";
-import photoshop from "../assets/photoshop.svg";
-import scrapfront from "../assets/scrapper-front.png";
-import scrapback from "../assets/scrapper-back.png";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { useState } from "react";
-import { Navigate } from "react-router-dom";
 const software = [
-  [vscode, "Visual Studio Code"],
-  [blender, "Blender"],
-  [photoshop, "Adobe Photoshop"],
+  ["/vscode.svg", "Visual Studio Code"],
+  ["/blender3d.svg", "Blender"],
+  ["/photoshop.svg", "Adobe Photoshop"],
 ];
 const Home = () => {
   return (
