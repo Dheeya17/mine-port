@@ -38,7 +38,7 @@ function PortSlide(props) {
 
             <button
               type="button"
-              className="transition ease-in-out scale-50 lg:scale-100 hover:bg-white hover:bg-opacity-30 border-2 border-cyan-400 p-2 rounded-full text-md lg:text-xl absolute bottom-0 right-0 lg:bottom-2 lg:right-2 duration-300"
+              className="transition ease-in-out scale-50 md:scale-75 lg:scale-100 hover:bg-white hover:bg-opacity-30 border-2 border-cyan-400 p-2 rounded-full text-md lg:text-xl absolute -bottom-3 -right-3 md:bottom-0 md:right-0 lg:bottom-2 lg:right-2 duration-300"
               onClick={next}
             >
               <svg
@@ -54,7 +54,7 @@ function PortSlide(props) {
             </button>
             <button
               type="button"
-              className="transition scale-50 lg:scale-100 ease-in-out hover:bg-white hover:bg-opacity-30 border-2 border-cyan-400 p-2 rounded-full text-md lg:text-xl absolute top-0 left-0 lg:top-2 lg:left-2 duration-300"
+              className="transition scale-50 lg:scale-100 ease-in-out md:scale-75 hover:bg-white hover:bg-opacity-30 border-2 border-cyan-400 p-2 rounded-full text-md lg:text-xl absolute -top-3 -left-2 md:top-0 md:left-0 lg:top-2 lg:left-2 duration-300"
               onClick={prev}
             >
               <svg

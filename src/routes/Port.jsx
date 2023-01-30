@@ -42,7 +42,7 @@ const graphics = [
 const Port = () => {
   return (
     <>
-      <div className="flex text-white p-4 text-center h-100 lg:h-screen align-middle z-20 relative">
+      <div className="flex text-white p-4 text-center h-48 sm:h-72 md:h-96 lg:h-screen align-middle z-20 relative">
         <div className="mx-auto mt-16 lg:mt-36">
           <h1 className="font-bold text-3xl lg:text-7xl mb-1">
             Misky's Portfolio
