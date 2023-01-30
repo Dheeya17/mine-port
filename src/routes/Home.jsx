@@ -7,7 +7,7 @@ const software = [
 const Home = () => {
   return (
     <>
-      <div className="flex text-white p-4 mb-24 pt-10 text-center h-72 md:h-80 lg:h-screen align-middle relative md:mb-72 lg:mb-36">
+      <div className="flex text-white p-4 mb-24 pt-10 text-center h-48 sm:h-72 md:h-80 lg:h-screen align-middle relative md:mb-72 lg:mb-36">
         <div id="title" className="mx-auto mt-7 lg:mt-36 relative">
           <div className="relative z-20">
             <h1 className="font-bold text-2xl md:text-5xl lg:text-7xl">
