@@ -55,12 +55,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(255, 0, 179); 
 }
-#dot{
+#dot{ 
   bottom: 13%;
 }
 .mask {
-  -webkit-mask-image: url(/public/Glitch.png);
-  mask-image: url(/public/Glitch.png);
+  -webkit-mask-image: url(/Hivu.png);
+  mask-image: url(/Hivu.png);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   /* -webkit-mask-size: auto; */

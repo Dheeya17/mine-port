@@ -33,10 +33,10 @@ const Home = () => {
           Summary
         </h2>
         <p>
-          I've been working with some Frontend projects for about a year since I
-          became interested in Web Development, yet I still develop it for the
-          best result. There are projects I finished, like Layouting Database
-          Information for some requests. For some projects are still in
+          I've been working with some Frontend React projects for about a year
+          since I became interested in Web Development, yet I still develop it
+          for the best result. There are projects I finished, like Layouting
+          Database Information for some requests. For some projects are still in
           progress. I've also been working as Key Art Artist for 4 years. There
           are many projects I've been working on, like posters for events, arts,
           and game assets.

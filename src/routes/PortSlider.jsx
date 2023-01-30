@@ -16,7 +16,8 @@ function PortSlide(props) {
       <div className="relative w-full">
         <div className="overflow-hidden">
           <div className="relative">
-            <div className="mask">
+            {/* <img className="absolute " src="/HivuOver.png" alt="" /> */}
+            <div className="mask rounded-3xl">
               <div
                 className="transition ease-in-out flex w-full duration-300"
                 style={{ transform: `translateX(${-(100 * pages)}%)` }}
@@ -34,19 +35,38 @@ function PortSlide(props) {
                 })}
               </div>
             </div>
+
             <button
               type="button"
-              className="bg-cyan-500 px-4 py-2 rounded-full text-md lg:text-xl absolute bottom-2 right-2"
+              className="transition ease-in-out scale-50 lg:scale-100 hover:bg-white hover:bg-opacity-30 border-2 border-cyan-400 p-2 rounded-full text-md lg:text-xl absolute bottom-0 right-0 lg:bottom-2 lg:right-2 duration-300"
               onClick={next}
             >
-              {">"}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="cyan"
+                class="bi bi-caret-right-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+              </svg>
             </button>
             <button
               type="button"
-              className="bg-red-500 px-4 py-2 rounded-full text-md lg:text-xl absolute top-2 left-2"
+              className="transition scale-50 lg:scale-100 ease-in-out hover:bg-white hover:bg-opacity-30 border-2 border-cyan-400 p-2 rounded-full text-md lg:text-xl absolute top-0 left-0 lg:top-2 lg:left-2 duration-300"
               onClick={prev}
             >
-              {"<"}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="cyan"
+                class="bi bi-caret-left-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+              </svg>
             </button>
           </div>
           <div className="w-full mt-2 lg:mt-4" id="dot">
@@ -54,8 +74,8 @@ function PortSlide(props) {
               {container.map((circle, page) => {
                 return (
                   <button
-                    className={`cursor-pointer rounded-full scale-75 lg:scale-100 w-3 h-3 bg-white ${
-                      pages == page ? "opacity-100" : "opacity-40"
+                    className={`cursor-pointer rounded-full scale-75 lg:scale-100 w-3 h-3 bg-cyan-400 ${
+                      pages == page ? "opacity-100" : "opacity-30"
                     }`}
                     key={page}
                     onClick={() => setPages(page)}
