@@ -1,9 +1,4 @@
-const skills = ["Frontend", "3D Modelling", "Key Art"];
-const software = [
-  ["/vscode.svg", "Visual Studio Code"],
-  ["/blender3d.svg", "Blender"],
-  ["/photoshop.svg", "Adobe Photoshop"],
-];
+import { skills, software } from "../data";
 const Home = () => {
   return (
     <>
