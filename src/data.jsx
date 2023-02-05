@@ -51,7 +51,7 @@ const graphics = [
   {
     id: 4,
     captions:
-      "Product design for coffee, using a display product for advertising. includes with many flavours and different product",
+      "Product design for coffee, using a display product for advertising. Includes with many flavours and different product",
     imageUrl: "/Makcik.png",
   },
 ];

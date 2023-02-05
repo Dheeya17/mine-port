@@ -9,6 +9,9 @@ module.exports = {
       padding: {
         Mid: "10rem",
       },
+      position: {
+        Hola: "10%",
+      },
     },
   },
   plugins: [],

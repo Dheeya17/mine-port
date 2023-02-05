@@ -15,9 +15,19 @@ function PortSlide(props) {
     <>
       <div className="relative w-full">
         <div className="overflow-hidden">
-          <div className="relative">
-            {/* <img className="absolute " src="/HivuOver.png" alt="" /> */}
-            <div className="mask rounded-3xl">
+          <div className="relative group">
+            <div className="mask rounded-3xl group">
+              <div className="transition ease-in-out duration-500 opacity-0 bg-gradient-to-t from-black w-full h-full absolute z-10 group-hover:opacity-100">
+                {container.map((content, index) => {
+                  return index === pages ? (
+                    <div className="text-md md:text-lg lg:text-xl p-4 md:p-7 lg:p-10 w-3/4 bottom-0 absolute z-20">
+                      {content.captions}
+                    </div>
+                  ) : (
+                    ""
+                  );
+                })}
+              </div>
               <div
                 className="transition ease-in-out flex w-full duration-300"
                 style={{ transform: `translateX(${-(100 * pages)}%)` }}
@@ -26,9 +36,10 @@ function PortSlide(props) {
                 {container.map((content, index) => {
                   return (
                     <img
-                      className="imge"
+                      className="transition ease-in-out duration-500 hover:blur-xl"
                       src={content.imageUrl}
                       alt=""
+                      id="ime"
                       key={index}
                     />
                   );
@@ -83,19 +94,6 @@ function PortSlide(props) {
                 );
               })}
             </div>
-          </div>
-          <div className="mt-4">
-            {container.map((content, index) => {
-              return (
-                <p
-                  className={`transition ease-in-out text-center text-md lg:text-xl ${
-                    index == pages ? "opacity-100" : "opacity-0"
-                  } duration-500`}
-                >
-                  {index == pages ? content.captions : ""}
-                </p>
-              );
-            })}
           </div>
         </div>
       </div>
