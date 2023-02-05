@@ -20,7 +20,7 @@ function PortSlide(props) {
               <div className="transition ease-in-out duration-500 opacity-0 bg-gradient-to-t from-black w-full h-full absolute z-10 group-hover:opacity-100">
                 {container.map((content, index) => {
                   return index === pages ? (
-                    <div className="text-md md:text-lg lg:text-xl p-4 md:p-7 lg:p-10 w-3/4 bottom-0 absolute z-20">
+                    <div className="transition-all duration-500 opacity-0 group-hover:opacity-100 translate-y-8 group-hover:translate-y-0 text-md md:text-lg lg:text-xl p-4 md:p-7 lg:p-10 w-3/4 bottom-0 absolute z-20">
                       {content.captions}
                     </div>
                   ) : (
