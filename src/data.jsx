@@ -1,4 +1,8 @@
-const skills = ["Frontend React", "3D Modelling", "Key Art"];
+const skills = [
+  ["Frontend", ["React", "Tailwind", "Bootstrap"]],
+  ["3D Art", ["Modelling", "Sculpting", "Texturing"]],
+  ["Key Art", ["Graphic Design", "Thumbnail", "Assets"]],
+];
 const software = [
   ["/vscode.svg", "Visual Studio Code"],
   ["/blender3d.svg", "Blender"],

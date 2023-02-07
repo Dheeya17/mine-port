@@ -45,12 +45,30 @@ const Home = () => {
         <div className="flex flex-row flex-wrap">
           {skills.map((e) => {
             return (
-              <div className="transition ease-in-out w-32 lg:w-40 border-2 my-2 text-center mr-2 hover:scale-110 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-lg hover:shadow-cyan-400 hover:backdrop-blur-sm duration-300">
-                {e}
+              <div className="expand group lg:hover:h-32 hover:h-24 overflow-hidden w-32 lg:w-40 border-2 h-6 lg:h-8 mr-2 mb-2">
+                <h2 className="group-hover:text-cyan-300 group-hover:font-bold">
+                  {e[0]}
+                </h2>
+                {e[1].map((f) => {
+                  return (
+                    <p className="transition opacity-0 group-hover:opacity-100  duration-500">
+                      {f}
+                    </p>
+                  );
+                })}
               </div>
             );
           })}
         </div>
+        {/* <div className="flex flex-row flex-wrap">
+              {skills.map((e) => {
+                return (
+                  <div className="transition ease-in-out w-32 lg:w-40 border-2 my-2 text-center mr-2 hover:scale-110 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-lg hover:shadow-cyan-400 hover:backdrop-blur-sm duration-300">
+                    <p>{e}</p>
+                  </div>
+                );
+              })}
+            </div> */}
       </div>
       <div className="px-7 lg:px-Mid text-white text-left m-4 mt-20 lg:mt-20 content-center h-64">
         <h2 className="text-cyan-300 glow text-2xl lg:text-3xl font-bold mb-4">

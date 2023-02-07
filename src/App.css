@@ -74,3 +74,12 @@
     color: white;
     /* padding: 100px; */
 }
+.expand {
+  transition: height 0.5s, text-shadow 0.5s;
+  text-align: center;
+
+}
+.expand:hover{
+  text-shadow: 0 0 5px #00ccff;
+  /* height: 20%; */
+}

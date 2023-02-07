@@ -15,7 +15,7 @@ function PortSlide(props) {
     <>
       <div className="relative w-full">
         <div className="overflow-hidden">
-          <div className="relative group">
+          <div className="relative ">
             <div className="mask rounded-3xl group">
               <div className="transition ease-in-out duration-500 opacity-0 bg-gradient-to-t from-black w-full h-full absolute z-10 group-hover:opacity-100">
                 {container.map((content, index) => {
