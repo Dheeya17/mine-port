@@ -39,7 +39,8 @@ const Home = () => {
           Database Information for some requests. For some projects are still in
           progress. I've also been working as Key Art Artist for 4 years. There
           are many projects I've been working on, like posters for events, arts,
-          and game assets.
+          and game assets. On enhancing 3D Art, i've been working on some 3D
+          models, textures, and animation.
         </p>
       </div>
 

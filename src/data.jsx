@@ -60,4 +60,14 @@ const graphics = [
     imageUrl: "/Makcik.png",
   },
 ];
-export { skills, software, UI, graphics };
+const BlockModels = [
+  {
+    title: "Dark Lord",
+    url: "https://sketchfab.com/models/c8c205ff3f464b498ae1865dfa9b1db4/embed",
+  },
+  {
+    title: "Corrupted Angel",
+    url: "https://sketchfab.com/models/539c122e1cf44c58aebddf3b16b12a4f/embed",
+  },
+];
+export { skills, software, UI, graphics, BlockModels };

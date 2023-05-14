@@ -1,5 +1,6 @@
 import PortSlide from "./PortSlider";
-import { UI, graphics } from "../data";
+import { UI, graphics, BlockModels } from "../data";
+import PortBlockModels from "./PortBlockModels";
 
 const Port = () => {
   return (
@@ -24,49 +25,12 @@ const Port = () => {
         </h2>
         <PortSlide container={UI}></PortSlide>
       </div> */}
-      <div className="text-white px-7 lg:px-Mid text-left m-4 content-center mt-10 pt-10 lg:pt-20">
-        <h2 className="sub glow text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
-          Corrupted Angel
-        </h2>
-        <div class="sketchfab-embed-wrapper w-full">
-          <iframe
-            className="lg:h-screen md:h-96"
-            title="Corrupted Angel"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
-            width="100%"
-            src="https://sketchfab.com/models/539c122e1cf44c58aebddf3b16b12a4f/embed"
-          ></iframe>
-        </div>
-      </div>
-      <div className="text-white px-7 lg:px-Mid text-left m-4 content-center mt-10">
-        <h2 className="sub glow text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
-          Dark Lord
-        </h2>
-        <div class="sketchfab-embed-wrapper">
-          <iframe
-            className="lg:h-screen md:h-96"
-            title="Dark Lord"
-            frameborder="0"
-            allowfullscreen
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
-            allow="autoplay; fullscreen; xr-spatial-tracking"
-            xr-spatial-tracking
-            execution-while-out-of-viewport
-            execution-while-not-rendered
-            web-share
-            width="100%"
-            src="https://sketchfab.com/models/c8c205ff3f464b498ae1865dfa9b1db4/embed"
-          ></iframe>
-        </div>
+      <div className="mt-16 sm:mt-24 md:mt-16 lg:mt-20 mt">
+        {BlockModels.map((content, index) => {
+          return (
+            <PortBlockModels container={BlockModels[index]}></PortBlockModels>
+          );
+        })}
       </div>
     </>
   );
