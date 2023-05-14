@@ -69,5 +69,9 @@ const BlockModels = [
     title: "Corrupted Angel",
     url: "https://sketchfab.com/models/539c122e1cf44c58aebddf3b16b12a4f/embed",
   },
+  {
+    title: "Croach-Pion",
+    url: "https://sketchfab.com/models/ff2c4fe175574a48bcb8a30855e76f03/embed",
+  },
 ];
 export { skills, software, UI, graphics, BlockModels };
