@@ -4,8 +4,8 @@ import { Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Home from "./routes/Home";
 import Port from "./routes/Port";
-
 import "./App.css";
+
 function App() {
   return (
     <div className="App">
@@ -25,7 +25,6 @@ function App() {
           {/* <img className="z-10" src={light} alt="" />
           <img className="z-10 right-4" src={light2} alt="" /> */}
         </div>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/port" element={<Port />} />

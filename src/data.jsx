@@ -7,6 +7,7 @@ const software = [
   ["/vscode.svg", "Visual Studio Code"],
   ["/blender3d.svg", "Blender"],
   ["/photoshop.svg", "Adobe Photoshop"],
+  ["/Blockbench.png", "Blockbench"],
 ];
 const UI = [
   {

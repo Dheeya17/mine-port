@@ -8,8 +8,13 @@ const Home = () => {
             <h1 className="font-bold text-2xl md:text-5xl lg:text-7xl">
               Ghozi Dhiya Ulhaq
             </h1>
+            <h3 className="text-sm md:text-md lg:text-xl ">
+              (a.k.a Anesteva Miru)
+            </h3>
             <h2 className="text-md md:text-lg lg:text-2xl mb-2 lg:mb-4">
-              Frontend Developer and Key Art Artist
+              <span className="text-cyan-300"> Frontend Developer </span>
+              and
+              <span className=" text-pink-300"> 3D Artist</span>
             </h2>
           </div>
           <a
