@@ -47,7 +47,7 @@ function App() {
                 src="https://img.icons8.com/sf-regular/48/FFFFFF/whatsapp.png"
               />
             </a>
-            <a href="https://discord.com/users/Meth#6810" target="_blank">
+            <a href="https://discord.com/users/Meisth#6810" target="_blank">
               <img
                 className="transition ease-in-out lg:hover:scale-110 duration-300 scale-75 hover:scale-90 lg:scale-100"
                 src="https://img.icons8.com/sf-regular/48/FFFFFF/discord.png"
