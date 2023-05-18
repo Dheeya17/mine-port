@@ -73,5 +73,9 @@ const BlockModels = [
     title: "Croach-Pion",
     url: "https://sketchfab.com/models/ff2c4fe175574a48bcb8a30855e76f03/embed",
   },
+  {
+    title: "Abyss Mage",
+    url: "https://sketchfab.com/models/bdf7e3c208e844d69468190faf9b605e/embed",
+  },
 ];
 export { skills, software, UI, graphics, BlockModels };
