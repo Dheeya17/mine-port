@@ -24,8 +24,9 @@ body{
     position: relative;
 }
 .parallax > img{
+    width: 100%;
     position: absolute;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .glow{
     text-shadow: 0 0 5px #00ccff;
