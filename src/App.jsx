@@ -10,12 +10,12 @@ function App() {
   return (
     <div className="App">
       <div className="text-sm lg:text-lg content-center text-center">
-        <div className="nav flex flex-row m-1 lg:m-2 justify-center p-2 lg:p-4 w-100 top-0 inset-x-0 z-40 absolute">
-          {/* <h2 className="w-64">Dhiya's Portfolio</h2> */}
-          <Link to="/">Home</Link>
-          <Link to="/port">Portfolio</Link>
-          {/* <div className="nav flex"></div> */}
-        </div>
+        {/* <div className="nav flex flex-row m-1 lg:m-2 justify-center p-2 lg:p-4 w-100 top-0 inset-x-0 z-40 absolute"> */}
+        {/* <h2 className="w-64">Dhiya's Portfolio</h2> */}
+        {/* <Link to="/">Home</Link>
+          <Link to="/port">Portfolio</Link> */}
+        {/* <div className="nav flex"></div> */}
+        {/* </div> */}
         <div className="parallax">
           <img className="z-30" src="/scrapper-front.png" alt="" />
           <img className="z-10 lg:z-20" src="/scrapper-back.png" alt="" />

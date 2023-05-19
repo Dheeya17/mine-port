@@ -1,4 +1,6 @@
 import { skills, software } from "../data";
+import { UI, graphics, BlockModels } from "../data";
+import PortBlockModels from "./PortBlockModels";
 const Home = () => {
   return (
     <>
@@ -76,7 +78,7 @@ const Home = () => {
               })}
             </div> */}
       </div>
-      <div className="px-7 lg:px-Mid text-white text-left m-4 mt-20 lg:mt-20 content-center h-64">
+      <div className="px-7 lg:px-Mid text-white text-left m-4 mt-20 lg:mt-20 content-center ">
         <h2 className="text-cyan-300 glow text-2xl lg:text-3xl font-bold mb-4">
           Software Proficiency
         </h2>
@@ -87,6 +89,18 @@ const Home = () => {
                 <img className="h-9" src={e[0]} alt={e[1]} />
                 <h6 className="flex-auto p-4">{e[1]}</h6>
               </div>
+            );
+          })}
+        </div>
+      </div>
+      <div className="text-white px-7 lg:px-Mid text-left m-4 content-center mt-10">
+        <div className="mt-16 sm:mt-24 md:mt-16 lg:mt-20 mt">
+          <h2 className="text-cyan-300 glow text-2xl text-left lg:text-3xl font-bold mb-4">
+            Models Showcase
+          </h2>
+          {BlockModels.map((content, index) => {
+            return (
+              <PortBlockModels container={BlockModels[index]}></PortBlockModels>
             );
           })}
         </div>

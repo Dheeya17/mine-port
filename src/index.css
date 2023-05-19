@@ -31,3 +31,6 @@ body{
 .glow{
     text-shadow: 0 0 5px #00ccff;
 }
+.glow2{
+    text-shadow: 0 0 5px #ff00ff;
+}
