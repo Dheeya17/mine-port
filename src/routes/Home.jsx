@@ -105,6 +105,18 @@ const Home = () => {
           })}
         </div>
       </div>
+      <div className="text-white px-7 text-xl font-bold lg:px-Mid text-center m-4 content-center mt-10">
+        <h2>For details, visit on</h2>
+        <div className="w-1/2 mx-auto">
+          <a target="_blank" href="https://sketchfab.com/anesteva_miru">
+            <img
+              className="mt-2"
+              src="/sketchfab-white.png"
+              alt="sketchfab-logo"
+            />
+          </a>
+        </div>
+      </div>
     </>
   );
 };

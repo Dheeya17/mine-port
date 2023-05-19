@@ -18,7 +18,7 @@ function PortBlockModels(props) {
           width="100%"
           src={container.url}
         ></iframe>
-        <h2 className="sub glow2 text-pink-300 text-center text-2xl lg:text-3xl font-bold mt-2 mb-4 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 duration-500">
+        <h2 className="sub glow2 text-pink-300 text-center text-2xl lg:text-3xl font-bold mt-2 mb-4 opacity-0 group-hover:opacity-100 -translate-y-4 group-hover:translate-y-0 h-0 group-hover:h-4 duration-500">
           {container.title}
         </h2>
       </div>

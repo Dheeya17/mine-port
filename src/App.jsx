@@ -17,11 +17,11 @@ function App() {
         {/* <div className="nav flex"></div> */}
         {/* </div> */}
         <div className="parallax">
-          <img className="z-30" src="/scrapper-front.png" alt="" />
-          <img className="z-10 lg:z-20" src="/scrapper-back.png" alt="" />
-          <img className="z-10" src="/starry-sky.png" alt="" />
-          <img className="z-10" src="/scrapper-refl.png" alt="" />
-          <img className="z-10" src="/lights.png" alt="" />
+          <img className="z-30" src="/scrapper-front.png" alt="bg1" />
+          <img className="z-10 lg:z-20" src="/scrapper-back.png" alt="bg2" />
+          <img className="z-10" src="/starry-sky.png" alt="bg3" />
+          <img className="z-10" src="/scrapper-refl.png" alt="bg4" />
+          <img className="z-10" src="/lights.png" alt="bg5" />
           {/* <img className="z-10" src={light} alt="" />
           <img className="z-10 right-4" src={light2} alt="" /> */}
         </div>

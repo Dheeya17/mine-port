@@ -26,6 +26,7 @@ body{
 .parallax > img{
     width: 100%;
     position: absolute;
+    pointer-events: none;
     /* object-fit: cover; */
 }
 .glow{
