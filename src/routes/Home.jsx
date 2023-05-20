@@ -1,5 +1,5 @@
 import { skills, software } from "../data";
-import { UI, graphics, BlockModels } from "../data";
+import { UI, graphics, BlockModels, Collection } from "../data";
 import PortBlockModels from "./PortBlockModels";
 const Home = () => {
   return (
@@ -97,9 +97,9 @@ const Home = () => {
           <h2 className="text-cyan-300 glow text-2xl text-left lg:text-3xl font-bold mb-4">
             Models Showcase
           </h2>
-          {BlockModels.map((content, index) => {
+          {Collection.map((content, index) => {
             return (
-              <PortBlockModels container={BlockModels[index]}></PortBlockModels>
+              <PortBlockModels container={Collection[index]}></PortBlockModels>
             );
           })}
         </div>

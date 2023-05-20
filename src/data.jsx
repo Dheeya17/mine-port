@@ -82,4 +82,18 @@ const BlockModels = [
     url: "https://sketchfab.com/models/4f45b486899b406686cbbbce9496ae72/embed",
   },
 ];
-export { skills, software, UI, graphics, BlockModels };
+const Collection = [
+  {
+    title: "Boss Entity",
+    url: "https://sketchfab.com/playlists/embed?collection=8d685be404f34abf95d1902a82ea4ef5&autostart=0",
+  },
+  {
+    title: "Mob Entity",
+    url: "https://sketchfab.com/playlists/embed?collection=5c911bfccc9142108f16e2a09f98652a&autostart=0",
+  },
+  {
+    title: "Weapon",
+    url: "https://sketchfab.com/playlists/embed?collection=e75bdd993eef4d1ca9b6f552197cedcc&autostart=0",
+  },
+];
+export { skills, software, UI, graphics, BlockModels, Collection };
