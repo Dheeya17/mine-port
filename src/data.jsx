@@ -77,5 +77,9 @@ const BlockModels = [
     title: "Abyss Mage",
     url: "https://sketchfab.com/models/bdf7e3c208e844d69468190faf9b605e/embed",
   },
+  {
+    title: "Shadow Lurker",
+    url: "https://sketchfab.com/models/4f45b486899b406686cbbbce9496ae72/embed",
+  },
 ];
 export { skills, software, UI, graphics, BlockModels };

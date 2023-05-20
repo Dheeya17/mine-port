@@ -14,7 +14,7 @@ const Home = () => {
               (a.k.a Anesteva Miru)
             </h3>
             <h2 className="text-md md:text-lg lg:text-2xl mb-2 lg:mb-4">
-              <span className="text-cyan-300"> Frontend Developer </span>
+              <span className="text-cyan-300"> 3D Animator </span>
               and
               <span className=" text-pink-300"> 3D Artist</span>
             </h2>
@@ -35,14 +35,13 @@ const Home = () => {
           Summary
         </h2>
         <p>
-          I've been working with some Frontend React projects for about a year
-          since I became interested in Web Development, yet I still develop it
-          for the best result. There are projects I finished, like Layouting
-          Database Information for some requests. For some projects are still in
-          progress. I've also been working as Key Art Artist for 4 years. There
-          are many projects I've been working on, like posters for events, arts,
-          and game assets. On enhancing 3D Art, i've been working on some 3D
-          models, textures, and animation.
+          Highly passionate about 3D Arts and Design with estimate 2 years of
+          experience in 3D Models, Texture, and Animation. Proficient in 3D and
+          Design Software, fast-paced environment, in-team communication, and
+          time management. Ongoing progress on some projects to work on and
+          develop skills for the best results. Enthusiast about teamwork
+          projects, advanced 3D Arts, and projects in the future. Looking
+          forward on any 3D projects to work on.
         </p>
       </div>
 
