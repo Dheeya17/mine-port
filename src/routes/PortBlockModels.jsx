@@ -7,8 +7,8 @@ function PortBlockModels(props) {
           {container.title}
         </h2>
         <iframe
-          width="640"
-          height="480"
+          className="lg:h-screen collection"
+          width="100%"
           src={container.url}
           title={container.title}
           frameborder="0"
@@ -20,7 +20,6 @@ function PortBlockModels(props) {
           execution-while-out-of-viewport
           execution-while-not-rendered
           web-share
-          width="100%"
         ></iframe>
       </div>
       {/* <div className="sketchfab-embed-wrapper group mb-10">

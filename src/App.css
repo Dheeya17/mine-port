@@ -83,4 +83,7 @@
   text-shadow: 0 0 5px #00ccff;
   /* height: 20%; */
 }
+.collection{
+  height: 50vh;
+}
 
