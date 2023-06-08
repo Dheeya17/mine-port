@@ -8,10 +8,10 @@ const Home = () => {
         <div id="title" className="mx-auto mt-7 lg:mt-36 relative">
           <div className="relative z-20">
             <h1 className="font-bold text-2xl md:text-5xl lg:text-7xl">
-              Ghozi Dhiya Ulhaq
+              Anesteva Miru
             </h1>
             <h3 className="text-sm md:text-md lg:text-xl ">
-              (a.k.a Anesteva Miru)
+              (a.k.a Dhiya Ulhaq)
             </h3>
             <h2 className="text-md md:text-lg lg:text-2xl mb-2 lg:mb-4">
               <span className="text-cyan-300"> 3D Animator </span>

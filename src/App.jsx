@@ -31,7 +31,7 @@ function App() {
         </Routes>
       </div>
       <div className="flex flex-row text-md font-bold text-white justify-between py-4 px-2 lg:px-4 inset-x-0 bottom-0 backdrop-blur-md">
-        <h3 className="my-auto px-3 scale-75 lg:scale-100">Misky-ism</h3>
+        <h3 className="my-auto px-3 scale-75 lg:scale-100">Meisth#6810</h3>
         <div className="text-center pl-8">
           <h3 className="scale-75 lg:scale-100">Reach Me</h3>
           <div className="flex flex-row justify-between w-20 lg:w-40">
