@@ -92,7 +92,7 @@ const Collection = [
     url: "https://sketchfab.com/playlists/embed?collection=5c911bfccc9142108f16e2a09f98652a&autostart=0",
   },
   {
-    title: "Weapon",
+    title: "Persona Items",
     url: "https://sketchfab.com/playlists/embed?collection=e75bdd993eef4d1ca9b6f552197cedcc&autostart=0",
   },
 ];
