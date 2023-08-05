@@ -1,5 +1,6 @@
 import { skills, software } from "../data";
-import { UI, graphics, BlockModels, Collection } from "../data";
+import PortSlide from "./PortSlider";
+import { UI, graphics, BlockModels, Collection, KeyArt } from "../data";
 import PortBlockModels from "./PortBlockModels";
 const Home = () => {
   return (
@@ -103,6 +104,12 @@ const Home = () => {
             );
           })}
         </div>
+      </div>
+      <div className="text-white px-7 lg:px-Mid pt-10 text-left m-4 content-center mt-20 lg:pt-20">
+        <h2 className="sub glow text-cyan-300 text-2xl lg:text-3xl font-bold mb-4">
+          Key Art Showcase
+        </h2>
+        <PortSlide container={KeyArt}></PortSlide>
       </div>
       <div className="text-white px-7 text-xl font-bold lg:px-Mid text-center m-4 content-center mt-10">
         <h2>For details, visit on</h2>

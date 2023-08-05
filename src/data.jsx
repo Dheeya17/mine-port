@@ -29,6 +29,28 @@ const UI = [
     imageUrl: "/UI3.png",
   },
 ];
+const KeyArt = [
+  {
+    id: 1,
+    captions: "Magic School Skin Pack by RedEagle Studio",
+    imageUrl: "/MagicSchool.jpg",
+  },
+  {
+    id: 2,
+    captions: "Maid Cafe Skin Pack by RedEagle Studio",
+    imageUrl: "/MaidCafe.png",
+  },
+  {
+    id: 3,
+    captions: "Summer Beach Skin Pack by RedEagle Studio",
+    imageUrl: "/SummerBeach.png",
+  },
+  {
+    id: 3,
+    captions: "Tv Man Skin Pack by RedEagle Studio",
+    imageUrl: "/TVMan.png",
+  },
+];
 const graphics = [
   {
     id: 1,
@@ -96,4 +118,4 @@ const Collection = [
     url: "https://sketchfab.com/playlists/embed?collection=e75bdd993eef4d1ca9b6f552197cedcc&autostart=0",
   },
 ];
-export { skills, software, UI, graphics, BlockModels, Collection };
+export { skills, software, UI, graphics, BlockModels, Collection, KeyArt };
